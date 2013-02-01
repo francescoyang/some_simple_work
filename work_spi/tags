@@ -1,0 +1,112 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACK_BACK	lm3_spi_test.c	27;"	d	file:
+CMD_430_STAT_LIGHT1	lm3_api.h	19;"	d
+CMD_430_STAT_LIGHT1	lm3_spi_test.c	20;"	d	file:
+CMD_430_STAT_LIGHT2	lm3_api.h	20;"	d
+CMD_430_STAT_LIGHT2	lm3_spi_test.c	21;"	d	file:
+CMD_430_STAT_LIGHT3	lm3_api.h	21;"	d
+CMD_430_STAT_LIGHT3	lm3_spi_test.c	22;"	d	file:
+CMD_ACK	lm3_api.h	9;"	d
+CMD_ACK	lm3_spi_test.c	10;"	d	file:
+CMD_ENABLE_KEY	lm3_api.h	22;"	d
+CMD_ENABLE_KEY	lm3_spi_test.c	23;"	d	file:
+CMD_KEY	lm3_api.h	11;"	d
+CMD_KEY	lm3_spi_test.c	12;"	d	file:
+CMD_KEY_BACK_LIGHT	lm3_api.h	14;"	d
+CMD_KEY_BACK_LIGHT	lm3_spi_test.c	15;"	d	file:
+CMD_MAGNETIC_PICK_UP	lm3_api.h	16;"	d
+CMD_MAGNETIC_PICK_UP	lm3_spi_test.c	17;"	d	file:
+CMD_NAK	lm3_api.h	10;"	d
+CMD_NAK	lm3_spi_test.c	11;"	d	file:
+CMD_PLAN_POWER_OFF	lm3_api.h	15;"	d
+CMD_PLAN_POWER_OFF	lm3_spi_test.c	16;"	d	file:
+CMD_POWER	lm3_api.h	13;"	d
+CMD_POWER	lm3_spi_test.c	14;"	d	file:
+CMD_POWER_OFF_NOW	lm3_api.h	17;"	d
+CMD_POWER_OFF_NOW	lm3_spi_test.c	18;"	d	file:
+CMD_TIME	lm3_api.h	12;"	d
+CMD_TIME	lm3_spi_test.c	13;"	d	file:
+CONCTL_BACKLIGHT	spi_manager.c	/^	CONCTL_BACKLIGHT,$/;"	e	enum:lm3cmdval	file:
+CONCTL_L1	spi_manager.c	/^	CONCTL_L1,$/;"	e	enum:lm3cmdval	file:
+CONCTL_L2	spi_manager.c	/^	CONCTL_L2,$/;"	e	enum:lm3cmdval	file:
+CONCTL_L3	spi_manager.c	/^	CONCTL_L3,$/;"	e	enum:lm3cmdval	file:
+JP_V2	lm3_spi_test.c	29;"	d	file:
+LM3CMDMAX	spi_manager.c	/^	LM3CMDMAX,$/;"	e	enum:lm3cmdval	file:
+LM3_MSG_MAGIC	lm3_api.h	24;"	d
+LM3_MSG_MAGIC	lm3_spi_test.c	24;"	d	file:
+NAK_ERROR	lm3_spi_test.c	28;"	d	file:
+OPEN_KEY	spi_manager.c	/^	OPEN_KEY,$/;"	e	enum:lm3cmdval	file:
+POWEROFF_NOW	spi_manager.c	/^	POWEROFF_NOW,$/;"	e	enum:lm3cmdval	file:
+POWEROFF_PLAN	spi_manager.c	/^	POWEROFF_PLAN,$/;"	e	enum:lm3cmdval	file:
+POWER_OFF_PLAN	lm3_spi_test.c	26;"	d	file:
+R12	lm3_spi_test.c	33;"	d	file:
+R12	lm3_spi_test.c	53;"	d	file:
+R13	lm3_spi_test.c	48;"	d	file:
+R13	lm3_spi_test.c	68;"	d	file:
+R25	lm3_spi_test.c	36;"	d	file:
+R25	lm3_spi_test.c	56;"	d	file:
+R27	lm3_spi_test.c	39;"	d	file:
+R27	lm3_spi_test.c	59;"	d	file:
+R28	lm3_spi_test.c	42;"	d	file:
+R28	lm3_spi_test.c	62;"	d	file:
+R29	lm3_spi_test.c	45;"	d	file:
+R29	lm3_spi_test.c	65;"	d	file:
+R30	lm3_spi_test.c	34;"	d	file:
+R30	lm3_spi_test.c	54;"	d	file:
+R31	lm3_spi_test.c	37;"	d	file:
+R31	lm3_spi_test.c	57;"	d	file:
+R32	lm3_spi_test.c	40;"	d	file:
+R32	lm3_spi_test.c	60;"	d	file:
+R33	lm3_spi_test.c	43;"	d	file:
+R33	lm3_spi_test.c	63;"	d	file:
+R40	lm3_spi_test.c	46;"	d	file:
+R40	lm3_spi_test.c	66;"	d	file:
+READ_VOLTAGE	spi_manager.c	/^	READ_VOLTAGE,$/;"	e	enum:lm3cmdval	file:
+__LM3_API__H	lm3_api.h	2;"	d
+__SPI_MANAGER_API__H	spi_manager_api.h	2;"	d
+__lm3cmd	spi_manager.c	/^typedef struct __lm3cmd{$/;"	s	file:
+argv	spi_manager.c	/^	char *argv;$/;"	m	struct:__lm3cmd	file:
+check	lm3_api.h	/^        char   check;         \/\/(¶¨ÒåÎª0ËãÐ£ÑéºÍ)$/;"	m	struct:lm3msg
+check_send	lm3_spi_test.c	/^static int check_send(m3msg_t *data)$/;"	f	file:
+cmd	lm3_api.h	/^        char   cmd;           \/\/$/;"	m	struct:lm3msg
+cmdp	spi_manager.c	/^	char *cmdp;$/;"	m	struct:__lm3cmd	file:
+data	lm3_api.h	/^        char   data[20];      \/\/´«ÊäµÄ×î´ó³¤¶ÈÎª30$/;"	m	struct:lm3msg
+datalen	lm3_api.h	/^        char   datalen;$/;"	m	struct:lm3msg
+fd	spi_manager.c	/^static int fd;$/;"	v	file:
+fds	lm3_spi_test.c	/^fd_set fds;$/;"	v
+i	lm3_spi_test.c	/^int i = 0;$/;"	v
+i	spi_manager.c	/^static int i;$/;"	v	file:
+kfd	lm3_spi_test.c	/^int kfd;$/;"	v
+lm3_main	lm3_spi_test.c	/^int lm3_main(int fd,int argc, char *argv[], int sign)$/;"	f
+lm3cmd_key	spi_manager.c	/^const lm3cmd_t lm3cmd_key[LM3CMDMAX] = {$/;"	v
+lm3cmd_t	spi_manager.c	/^}lm3cmd_t;$/;"	t	typeref:struct:__lm3cmd	file:
+lm3cmdval	spi_manager.c	/^enum lm3cmdval{$/;"	g	file:
+lm3msg	lm3_api.h	/^typedef struct lm3msg$/;"	s
+m3msg_t	lm3_api.h	/^}m3msg_t;$/;"	t	typeref:struct:lm3msg
+magic	lm3_api.h	/^	int    magic;$/;"	m	struct:lm3msg
+main	main.c	/^main(int argc,char *argv[])$/;"	f
+open_key	spi_manager.c	/^int open_key(void)$/;"	f
+operation_backlight	spi_manager.c	/^int operation_backlight(int op)$/;"	f
+operation_lm1	spi_manager.c	/^int operation_lm1(int op)$/;"	f
+operation_lm2	spi_manager.c	/^int operation_lm2(int op)$/;"	f
+operation_lm3	spi_manager.c	/^int operation_lm3(int op)$/;"	f
+poll_flag	lm3_spi_test.c	/^int poll_flag;$/;"	v
+power_signal	spi_manager.c	/^static int power_signal = 1;$/;"	v	file:
+poweroff_now	spi_manager.c	/^void poweroff_now(void)															\/\/ power off	$/;"	f
+rd	lm3_spi_test.c	/^unsigned char rd[30] ={0};$/;"	v
+read_v	lm3_spi_test.c	/^int read_v[6] = {0};$/;"	v
+read_voltage	spi_manager.c	/^int read_voltage(void)$/;"	f
+reserv	spi_manager.c	/^	char *reserv;$/;"	m	struct:__lm3cmd	file:
+rx_buff	lm3_spi_test.c	/^m3msg_t tx_buff,rx_buff;$/;"	v
+sig	lm3_api.h	/^        char    sig;       \/\/0Îª·¢ËÍ·½£¬1Îª½ÓÊÕ·½$/;"	m	struct:lm3msg
+spi_modules_init	spi_manager.c	/^int spi_modules_init(char  *devname)$/;"	f
+test_poweroff_status	spi_manager.c	/^int  test_poweroff_status(void)$/;"	f
+timeout	lm3_spi_test.c	/^struct timeval timeout = {0,100};$/;"	v	typeref:struct:timeval
+tx	lm3_spi_test.c	/^unsigned char tx[20] ={0x00};$/;"	v
+tx_buff	lm3_spi_test.c	/^m3msg_t tx_buff,rx_buff;$/;"	v
+v	lm3_spi_test.c	/^int  v[6]={0};$/;"	v
